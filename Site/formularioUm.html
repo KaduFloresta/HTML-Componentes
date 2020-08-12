@@ -8,7 +8,7 @@
 
 <body style="background-color:aqua">
     <br>
-    <p style="background-color:black;color:white">Formulário</p>
+    <p style="background-color:black;color:white">Formulário #1</p>
     <img src="imgs/cadastro.jpg" height="60px">
     <form>
         <fieldset>
@@ -29,10 +29,17 @@
 
             <label for="senha">Senha:</label><br>
             <input type="password" required id="senha"><br>
-
-            <br><input type="submit" style="background-color:blue;color:yellow" value="Salvar">
-            <input type="reset" style="background-color:blue;color:yellow" value="Cancelar">
         </fieldset>
+        <br>
+        <fieldset>
+            <legend>TextArea</legend>
+            <label for="descricao">Descrição:</label><br>
+            <textarea id="descricao" name="descricao" rows="5" cols="50">
+            </textarea>
+        </fieldset>
+        <br>
+        <input type="submit" style="background-color:blue;color:yellow" value="Salvar">
+        <input type="reset" style="background-color:blue;color:yellow" value="Cancelar">
     </form>
 
     <br><a href="index.html">Voltar</a><br>

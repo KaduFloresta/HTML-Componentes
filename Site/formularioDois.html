@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>FORMULÁRIO #2 HTML</title>
+    <meta charset="UTF-8/">
+</head>
+
+<body style="background-color:aqua">
+    <br>
+    <p style="background-color:black;color:white">Formulário #2</p>
+    <img src="imgs/cadastro.jpg" height="60px">
+    <form>
+        <fieldset>
+            <legend>Checkbox</legend>
+            <input type="checkbox" id="itens" name="Itens1" value="Ítem">
+            <label for="itens">Ítem #1:</label><br>
+            <input type="checkbox" id="itens" name="Itens2" value="Ítem">
+            <label for="itens">Ítem #2:</label><br>
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend>Radio</legend>
+            <input type="radio" id="azul" name="cores" value="Azul">
+            <label for="azul">Azul:</label><br>
+            <input type="radio" id="branco" name="cores" value="Branco">
+            <label for="branco">Branco:</label><br>
+            <input type="radio" id="cinza" name="cores" value="Cinza">
+            <label for="cinza">Cinza:</label><br>
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend>Select</legend>
+            <label for="fruta">Fruta:</label><br>
+            <select id="fruta" name="fruta"><br>
+                <option value="abacaxi">Abacaxi</option>
+                <option value="banana">Banana</option>
+                <option value="caju">Caju</option>
+                <option value="damasco">Damasco</option>
+                <option selected value="uva">Uva</option>
+            </select>
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend>DataList</legend>
+            <label for="objetos">Fruta:</label><br>
+            <input list="objetos">
+            <datalist id="objetos" name=objetos>
+                <option value=ancora>Âncora</option>
+                <option value="bola">Bola</option>
+                <option value="caneta">Caneta</option>
+                <option value="estojo">Estojo</option>
+                <option value="faca">Faca</option>
+            </datalist>
+        </fieldset>
+
+        <br><input type="submit" style="background-color:blue;color:yellow" value="Salvar">
+        <input type="reset" style="background-color:blue;color:yellow" value="Cancelar">
+
+    </form>
+
+    <br><a href="index.html">Voltar</a><br>
+</body>
+
+</html>

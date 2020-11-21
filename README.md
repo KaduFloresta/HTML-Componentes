@@ -26,20 +26,22 @@
 
 # HTML - Hello World e Componentes
 
-- Index
-- Lista
-- Formulários
-- Links
-- Navegador
-- Parágrafo
-- Imagem
-- Fontes
-- Label
-- Input
-- Legend
-- TextArea
-- Select
-- DataList
-- Fieldset
-- Style
-- Table
+- [X] Index
+- [X] Lista
+- [X] Formulários
+- [X] Links
+- [X] Navegador
+- [X] Parágrafo
+- [X] Imagem
+- [X] Fontes
+- [X] Label
+- [X] Input
+- [X] Legend
+- [X] TextArea
+- [X] Select
+- [X] DataList
+- [X] Fieldset
+- [X] Style
+- [X] Table
+
+---
